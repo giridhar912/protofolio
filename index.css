@@ -1,0 +1,297 @@
+
+/* ========================================= */
+/* LARGE LAPTOPS */
+/* ========================================= */
+
+@media screen and (max-width:1400px){
+
+.hero-text h1{
+    font-size:60px;
+}
+
+.hero-image img{
+    width:350px;
+    height:350px;
+}
+
+.projects-container{
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+}
+
+}
+
+/* ========================================= */
+/* LAPTOP */
+/* ========================================= */
+
+@media screen and (max-width:1200px){
+
+nav{
+    padding:20px 5%;
+}
+
+section{
+    padding:90px 5%;
+}
+
+.hero-container{
+    gap:50px;
+}
+
+.hero-text h1{
+    font-size:55px;
+}
+
+.hero-text p{
+    font-size:17px;
+}
+
+.hero-image img{
+    width:320px;
+    height:320px;
+}
+
+.skills-container,
+.projects-container,
+.contact-container,
+.certifications-container,
+.strength-container{
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+}
+
+}
+
+/* ========================================= */
+/* TABLET */
+/* ========================================= */
+
+@media screen and (max-width:992px){
+
+.hero-container{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.hero-text{
+    width:100%;
+}
+
+.hero-text h1{
+    font-size:50px;
+}
+
+.hero-text p{
+    font-size:16px;
+}
+
+.hero-image img{
+    width:300px;
+    height:300px;
+}
+
+.about-container{
+    grid-template-columns:1fr;
+}
+
+.about-image{
+    text-align:center;
+}
+
+.about-image img{
+    width:80%;
+}
+
+nav{
+    flex-direction:column;
+    gap:20px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.section-title{
+    font-size:42px;
+}
+
+.project-card img{
+    height:220px;
+}
+
+}
+
+/* ========================================= */
+/* MOBILE LARGE */
+/* ========================================= */
+
+@media screen and (max-width:768px){
+
+nav{
+    padding:20px 4%;
+}
+
+.logo{
+    font-size:28px;
+}
+
+nav ul{
+    gap:15px;
+}
+
+nav ul li a{
+    font-size:14px;
+}
+
+.hero{
+    padding-top:180px;
+}
+
+.hero-text h3{
+    font-size:22px;
+}
+
+.hero-text h1{
+    font-size:40px;
+}
+
+.hero-text p{
+    font-size:15px;
+    line-height:1.9;
+}
+
+.hero-image img{
+    width:260px;
+    height:260px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+.btn{
+    width:220px;
+    text-align:center;
+    margin-right:0;
+}
+
+.section-title{
+    font-size:36px;
+}
+
+section{
+    padding:80px 4%;
+}
+
+.project-card img{
+    height:200px;
+}
+
+.project-content{
+    padding:25px;
+}
+
+.project-content h2{
+    font-size:24px;
+}
+
+.project-content p{
+    font-size:14px;
+}
+
+.contact-card,
+.skill-card,
+.cert-card,
+.strength-card,
+.education-card{
+    padding:25px;
+}
+
+}
+
+/* ========================================= */
+/* MOBILE SMALL */
+/* ========================================= */
+
+@media screen and (max-width:480px){
+
+.hero-text h1{
+    font-size:32px;
+}
+
+.hero-text h3{
+    font-size:20px;
+}
+
+.hero-text p{
+    font-size:14px;
+}
+
+.hero-image img{
+    width:220px;
+    height:220px;
+}
+
+.logo{
+    font-size:24px;
+}
+
+.section-title{
+    font-size:30px;
+}
+
+nav ul li a{
+    font-size:13px;
+}
+
+.skills-container,
+.projects-container,
+.contact-container,
+.certifications-container,
+.strength-container{
+    grid-template-columns:1fr;
+}
+
+.project-card img{
+    height:180px;
+}
+
+.btn{
+    width:100%;
+}
+
+.about-content{
+    font-size:15px;
+}
+
+}
+
+/* ========================================= */
+/* EXTRA SMALL DEVICES */
+/* ========================================= */
+
+@media screen and (max-width:350px){
+
+.hero-text h1{
+    font-size:28px;
+}
+
+.hero-image img{
+    width:180px;
+    height:180px;
+}
+
+.section-title{
+    font-size:26px;
+}
+
+.btn{
+    padding:12px 20px;
+    font-size:14px;
+}
+
+}
